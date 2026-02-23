@@ -10,7 +10,7 @@ The JustUkeWinUtils DLL contains API functions
   - to send key strokes to the current foreground applications.
 
 # Installation
-- Just download and place the "JustUkeWinUtils.dll".
+- Just download the "JustUkeWinUtils.dll".
 - The DLL can be placed in OBS installation folder such as "C:\Program Files\obs-studio\bin\64bit".
 - It can also be placed anywhere else.
 - Download the "jamulus_hotkeys.lua" LUA Plugin script.
