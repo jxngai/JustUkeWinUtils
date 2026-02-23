@@ -26,3 +26,7 @@ This LUA script allows you to assign hotkeys to the functions defined in the scr
 
 <img width="1228" height="710" alt="obs_001" src="https://github.com/user-attachments/assets/94cd3552-2bec-4c1e-9393-71e3d1311aa6" />
 
+# Usage Scenarios
+During my live streaming session, I switch between OBS "Projector Preview" screen and Adobe Acrobat Reader application frequently. Ctrl + F13 is the hotkey has been assigned to accomplish this task.
+
+I also need to switch Adobe Acrobat Reader to 1 page view to 2 page view and vice versa frequently and quickly, Ctrl + 14 and Ctrl + 15 are the hotkeys for these.
