@@ -11,3 +11,6 @@ Installation
 - It can also be placed anywhere else.
 - Download the "jamulus_hotkeys.lua" LUA script.
 - Specify the location of the "JustUkeWinUtils.dll" in the LUA script.
+
+Important Notes
+The "jamulus_hotkeys.lua" is just an example script that implements some hotkey functions. You need to modify the script as per your usage requirement.
