@@ -1,8 +1,11 @@
 # Overview
-This is a C++ Visual Studio project that create a JustUkeWinUtils DLL to be invoked from OBS Lua script.
+This is a C++ Visual Studio project that create a JustUkeWinUtils DLL with C functions to be invoked from OBS Lua script.
+
+LUA script is light weight and efficient, but it may lack some critical functionalities. These shortcomings can be overcome by embedding those functionalities into a DLL.
 
 The JustUkeWinUtils DLL contains API functions
-  - to switch to another Window application by specifying the window title of the target application.
+
+  - to switch another Window application to the foreground by specifying the window title of the target application.
   - to find a window title of the current foreground application.
   - to send key strokes to the current foreground applications.
 
