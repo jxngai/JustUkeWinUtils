@@ -13,7 +13,10 @@
 
 #include <windows.h>
 
-std::string g_result_str;               // Buffer to hold the result string
+// Variable g_result_str holds the result of the API functions.
+// This also means that its value will be overwritten each time the function is called.
+
+std::string g_result_str;
 
 bool UkerSwitchWindow(const char* a_target_win_title_regex)
 {

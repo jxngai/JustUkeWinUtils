@@ -83,57 +83,6 @@ void znKeySender::SendKeySequence(std::string keys)
         OutputDebugStringW(std::to_wstring(ix).c_str());
         OutputDebugStringW(L"\n");
 
-        if (keys[ix] == VK_MENU)
-        {
-            if (flag_vk_menu_state == 0)
-            {
-                OutputDebugStringW(L"VK_MENU down");
-                OutputDebugStringW(L"\n");
-
-                SendKeyDown(keys[ix]);
-            }
-            else
-            {
-                OutputDebugStringW(L"VK_MENU up");
-                OutputDebugStringW(L"\n");
-
-                SendKeyUp(keys[ix]);
-            }
-
-            flag_vk_menu_state++;
-            flag_vk_menu_state = flag_vk_menu_state % 2;
-        }
-        else if (keys[ix] == VK_SHIFT)
-        {
-            if (flag_vk_menu_state == 0)
-            {
-                SendKeyDown(keys[ix]);
-            }
-            else
-            {
-                SendKeyUp(keys[ix]);
-            }
-
-            flag_vk_shift_state++;
-            flag_vk_shift_state = flag_vk_shift_state % 2;
-        }
-        else if (keys[ix] == VK_CONTROL)
-        {
-            if (flag_vk_menu_state == 0)
-            {
-                SendKeyDown(keys[ix]);
-            }
-            else
-            {
-                SendKeyUp(keys[ix]);
-            }
-
-            flag_vk_control_state++;
-            flag_vk_control_state = flag_vk_control_state % 2;
-        }
-        else
-        {
-            SendKey(keys[ix]);
-        }
+        SendKey(keys[ix]);
     }
 }
